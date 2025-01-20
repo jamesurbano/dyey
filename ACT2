@@ -1,0 +1,22 @@
+
+Urbano James <jamesernesturbano@gmail.com>
+12:28 PM (36 minutes ago)
+to geraldinesanga
+
+import React from 'react';
+import (SafeAreaView, SafeAreaProvider) from 'react-native-safe-are-context';
+
+const ViewBoxesWithColoAndText = () => {
+return (
+<SafeAreaProvider>
+<SafeAreaView style={{height:100, flexDirection: 'row'}}>
+<View style={{backgroundcolor: 'blue', flex: 0.5}} />
+<View style={{backgroundcolor: 'red', flex: 0.5'}} />
+<text> Helloworld!</Text>
+</SafeAreaView>
+</SafeAreaProvider>
+
+  );
+};
+
+export default ViewBoxesWithColoAndText;
