@@ -1,0 +1,32 @@
+import React from 'react';
+import {View, Text, Image, ScrollView, TextInput} from 'react-native';
+
+const App = () => {
+  return (
+    <ScrollView>
+      <Text>Some text</Text>
+      <View  style={{
+        alignItems:'center'
+      }}>>
+     
+        <Text>ASTAAAAAAAAAA</Text>
+        <Image
+          source={{
+            uri:'https://th.bing.com/th/id/OIP.ouAq0TYDZ0v4UhqEP2PQ3AHaFp?w=255&h=194&c=7&r=0&o=5&pid=1.7',
+          }}
+          style={{width: 200, height: 200}}
+        />
+      </View>
+      <TextInput
+        style={{
+          height: 40,
+          borderColor: 'gray',
+          borderWidth: 3,
+        }}
+        defaultValue="hi ako to si asta"
+      />
+    </ScrollView>
+  );
+};
+
+export default App;
